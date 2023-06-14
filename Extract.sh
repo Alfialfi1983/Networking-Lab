@@ -24,3 +24,10 @@ echo "$failed_logins" >> "$output_file"
 
 echo "Login details saved to $output_file."
 
+OUTPUT
+
+Last login details for user username:
+[The last login details of the specified user]
+
+Failed login attempts for user username:
+[The list of failed login attempts for the specified user]
