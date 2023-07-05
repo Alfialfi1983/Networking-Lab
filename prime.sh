@@ -22,6 +22,4 @@ echo "$mun"
 fi
 done
 
-echo -e "\n There are $count number of prime numbers"
-
-~                                                        
+echo -e "\n There are $count number of prime numbers"                                                       
