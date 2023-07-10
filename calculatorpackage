@@ -1,0 +1,28 @@
+import hellojava.Sum;
+import java.util.Scanner;
+public class Calculator
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter two numbers:");
+int a=sc.nextInt();
+int b=sc.nextInt();
+Sum Sum=new Sum();
+Sum.adding(a,b);
+}
+}
+///////package///////
+package japackage;
+interface add
+{
+void adding(int a,int b);
+} 
+public class Sum implements add
+{
+public void adding(int a,int b)
+{
+int c=a+b;
+System.out.println("the sum is :"+c);
+}
+}
